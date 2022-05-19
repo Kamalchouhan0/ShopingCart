@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.b1 {
+  margin: 5%;
+  height: 17%;
+  width: 150px;
+  background: #4472c4;
+}
+
+.b2 {
+  height: 17%;
+  width: 150px;
+  background: #4472c4;
+}
+.Div {
+  width: 15%;
+  height: 80%;
+  display: inline-block;
+  border: 1px solid #3f5f97;
+  margin-top: 3%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 1024px) {
+  .Div {
+    width: 20%;
+  }
+  .b1 {
+    margin: 7%;
+    height: 15%;
+    width: 130px;
+  }
+
+  .b2 {
+    height: 15%;
+    width: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Div {
+    width: 22%;
+  }
+  .b1 {
+    margin: 7%;
+    height: 15%;
+    width: 115px;
+    font-size: 12px;
+  }
+
+  .b2 {
+    height: 15%;
+    width: 115px;
+    font-size: 12px;
+  }
+}
